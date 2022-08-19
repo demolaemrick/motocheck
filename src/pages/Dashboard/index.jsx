@@ -27,7 +27,9 @@ const Dashboard = () => {
       </section>
       <section className={classes.section__activity}>
         <h1>Activity log</h1>
-        <Table tableHeaders={tableHeaders} tableData={tableData} />
+        <div className={classes.table__container}>
+          <Table tableHeaders={tableHeaders} tableData={tableData} />
+        </div>
         <hr />
         <div className={classes.button__container}>
           <Button>View more activity</Button>

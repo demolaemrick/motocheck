@@ -62,8 +62,9 @@
   width: 100%;
 }
 
-.section__activity {
-  overflow-x: auto;
+.table__container {
+  overflow-y: auto;
+  max-height: 500px;
 }
 
 .button__container {

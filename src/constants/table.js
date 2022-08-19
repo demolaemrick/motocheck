@@ -1,12 +1,42 @@
 export const tableData = [
   {
-    user: "Ademola Richard",
+    user: "SLAAB Center 1",
     event: "Added 500 agents",
     date: "02/05/2019 - 10:30pm",
   },
   {
     user: "SLAAB Center 1",
-    event: "Added 500 agents",
+    event: "Requested forms list",
+    date: "02/05/2019 - 10:30pm",
+  },
+  {
+    user: "SLAAB Center 1",
+    event: "Requested forms list",
+    date: "02/05/2019 - 10:30pm",
+  },
+  {
+    user: "Fashiano Autos",
+    event: "Requested forms list",
+    date: "02/05/2019 - 10:30pm",
+  },
+  {
+    user: "SLAAB Center 1",
+    event: "Requested forms list",
+    date: "02/05/2019 - 10:30pm",
+  },
+  {
+    user: "SLAAB Center 1",
+    event: "Requested forms list",
+    date: "02/05/2019 - 10:30pm",
+  },
+  {
+    user: "SLAAB Center 1",
+    event: "Requested forms list",
+    date: "02/05/2019 - 10:30pm",
+  },
+  {
+    user: "SLAAB Center 1",
+    event: "Requested forms list",
     date: "02/05/2019 - 10:30pm",
   },
 ];
