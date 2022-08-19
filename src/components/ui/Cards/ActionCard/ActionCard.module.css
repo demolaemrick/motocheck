@@ -1,0 +1,59 @@
+.card {
+  position: relative;
+  border-radius: 10px;
+  padding: 19px 24px;
+  flex: 1 0 21.6%;
+}
+.card.primary {
+  background: #ffe6d1;
+}
+.card.secondary {
+  background: #e9f4fa;
+}
+.card.tertiary {
+  background: #ffe3e0;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.icon__container {
+  border-radius: 4px;
+  padding: 14px 12px;
+  max-width: 45px;
+}
+
+.icon__container.primary {
+  background: #ffbb82;
+}
+.icon__container.secondary {
+  background: #b9d3d3;
+}
+.icon__container.tertiary {
+  background: #f5bec8;
+}
+.texts span {
+  display: block;
+  color: #000000;
+}
+
+.texts span:first-of-type {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.texts span:last-of-type {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.card__icon {
+  position: absolute;
+  right: 26px;
+  bottom: 26px;
+}
+
+ 

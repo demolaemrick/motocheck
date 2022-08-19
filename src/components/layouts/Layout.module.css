@@ -1,0 +1,29 @@
+.main {
+  padding: 0 30px;
+}
+.layout {
+  display: grid;
+  grid-template-columns: 270px auto;
+  height: 100vh;
+}
+.mobile__nav {
+  display: none;
+}
+.open {
+  display: block;
+}
+@media (max-width: 767px) {
+  .layout {
+    display: block;
+  }
+  .layout aside {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .open {
+    display: none;
+  }
+
+}

@@ -1,0 +1,33 @@
+.header {
+  background: #ffffff;
+  border: 1px solid #eaedf3;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70px;
+  padding: 0 33px 0 24px;
+}
+
+.header__text {
+  color: #080511;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+}
+
+.header__end {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .header__text {
+    display: none;
+  }
+}
+
+

@@ -1,0 +1,32 @@
+.sidebar {
+  background: #ffffff;
+  height: 100%;
+}
+
+.logo__container {
+  border-bottom: 1px solid #eaedf3;
+  padding: 30px 0px;
+  margin-left: 20px;
+}
+.sidebar ul {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  column-gap: 19px;
+  text-decoration: none;
+  padding: 16px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+  color: #5d6c76;
+}
+

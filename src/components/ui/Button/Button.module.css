@@ -1,0 +1,14 @@
+.button {
+  border: 1px solid #53bed2;
+  filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.1));
+  border-radius: 2px;
+  padding: 14px 20px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: -0.2px;
+  color: #333333;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+}
+
