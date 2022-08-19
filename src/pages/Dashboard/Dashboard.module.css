@@ -65,6 +65,10 @@
 .table__container {
   overflow-y: auto;
   max-height: 500px;
+  border: 2px solid #e5e8ed;
+  border-radius: 6px;
+  padding: 11px 0 0 20px;
+  background-color: #ffffff;
 }
 
 .button__container {

@@ -1,11 +1,7 @@
 .table {
   width: 100%;
-  border: 2px solid #e5e8ed;
-  border-radius: 6px;
   border-spacing: 0;
   table-layout: fixed;
-  padding: 11px 0 0 0px;
-  background-color: #ffffff;
 }
 
 .table tbody tr {
@@ -23,7 +19,7 @@
 }
 .table th,
 .table td {
-  padding: 22px;
+  padding: 22px 0;
 }
 .table td {
   color: #555555;
